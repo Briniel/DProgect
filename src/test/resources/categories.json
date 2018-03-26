@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Ошибка в тесте сайта Яндекс",
+    "messageRegex": ".*Элемент не найден.*",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Ошибка в тесте сайта Яндекс",
+    "messageRegex": ".*По запросу ничего не найдено.*",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Unknown Error",
+    "traceRegex": ".*NoSuchWindow.*",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Ошибка в тесте сайта НашеРадио",
+    "messageRegex": ".*Нет совпадений в композиций.*",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "WEB element not found",
+    "messageRegex": ".*Element is not clickable.*",
+    "matchedStatuses": ["broken"]
+  }
+]
